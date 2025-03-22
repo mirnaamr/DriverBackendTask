@@ -1,0 +1,6 @@
+@DriverBackendTask_HostAddress = http://localhost:5077
+
+GET {{DriverBackendTask_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
